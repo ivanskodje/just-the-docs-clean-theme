@@ -21,6 +21,8 @@ The quickiest way to use Just The Docs is to use GitHub pages [remote theme](htt
 
 ```yaml
 remote_theme: ivanskodje/just-the-docs-clean-theme
+plugins:
+  - jekyll-remote-theme
 ```
 
 ## Testing Locally
