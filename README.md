@@ -11,6 +11,34 @@
 
 ![jtd](https://user-images.githubusercontent.com/896475/47384541-89053c80-d6d5-11e8-98dc-dba16e192de9.gif)
 
+# README for Clean Theme
+
+## Installation
+
+### via GitHub Pages remote theme
+
+The quickiest way to use Just The Docs is to use GitHub pages [remote theme](https://blog.github.com/2017-11-29-use-any-theme-with-github-pages/) feature in your `_config.yml` file:
+
+```yaml
+remote_theme: just-the-docs/just-the-docs
+```
+
+## Testing Locally
+
+First install with bundle:
+```bash
+bundle install
+```
+
+Then serve:
+```bash
+bundle exec jekyll serve
+```
+
+Then open the page in your browser: http://localhost:4000/just-the-docs/
+
+# README for Original
+
 ## Installation
 
 ### via GitHub Pages remote theme
